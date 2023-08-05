@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import TextForm from './TextForm';
 export default function Navbar(props) {
     return (
         <div>
@@ -25,6 +26,7 @@ export default function Navbar(props) {
                     </div>
                 </div>
             </nav>
+            <TextForm className="container"/>
         </div>
     )
 }
